@@ -1,0 +1,32 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Flower 1 -->
+  <path d="M 100 200 C 80 180, 80 160, 100 140 C 120 120, 140 120, 160 140 C 180 160, 180 180, 160 200 C 140 220, 120 220, 100 200 Z" fill="white" stroke="black" stroke-width="1" />
+  <circle cx="130" cy="170" r="15" fill="white" stroke="black" stroke-width="1" />
+  
+  <!-- Flower 2 -->
+  <path d="M 240 200 C 220 180, 220 160, 240 140 C 260 120, 280 120, 300 140 C 320 160, 320 180, 300 200 C 280 220, 260 220, 240 200 Z" fill="white" stroke="black" stroke-width="1" />
+  <circle cx="270" cy="170" r="15" fill="white" stroke="black" stroke-width="1" />
+  
+  <!-- Flower 3 -->
+  <path d="M 170 300 C 150 280, 150 260, 170 240 C 190 220, 210 220, 230 240 C 250 260, 250 280, 230 300 C 210 320, 190 320, 170 300 Z" fill="white" stroke="black" stroke-width="1" />
+  <circle cx="200" cy="270" r="15" fill="white" stroke="black" stroke-width="1" />
+  
+  <!-- Flower 4   />
+  <circle cx="200" cy="270" r="15" fill="white" stroke="black" stroke-width="1" />
+  
+  <!-- Flower 4 -->
+  <path d="M 170 120 C 150 100, 150 80, 170 60 C 190 40, 210 40, 230 60 C 250 80, 250 100, 230 120 C 210 140, 190 140, 170 120 Z" fill="white" stroke="black" stroke-width="1" />
+  <circle cx="200" cy="90" r="15" fill="white" stroke="black" stroke-width="1" />
+  
+  <!-- Stems and leaves -->
+  <path d="M 130 170 L 130 320" stroke="black" stroke-width="1" />
+  <path d="M 130 250 C 110 240, 100 250, 110 270 C 120 260, 130 250, 130 250" fill="white" stroke="black" stroke-width="1" />
+  
+  <path d="M 270 170 L 270 320" stroke="black" stroke-width="1" />
+  <path d="M 270 240 C 290 230, 300 240, 290 260 C 280 250, 270 240, 270 240" fill="white" stroke="black" stroke-width="1" />
+  
+  <path d="M 200 90 L 200 320" stroke="black" stroke-width="1" />
+  <path d="M 200 200 C 180 190, 170 200, 180 220 C 190 210, 200 200, 200 200" fill="white" stroke="black" stroke-width="1" />
+  <path d="M 200 220 C 220 210, 230 220, 220 240 C 210 230, 200 220, 200 220" fill="white" stroke="black" stroke-width="1" />
+</svg>
+

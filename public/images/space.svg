@@ -1,0 +1,43 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background stars -->
+  <circle cx="50" cy="50" r="2" fill="white" stroke="black" stroke-width="0.5" />
+  <circle cx="100" cy="80" r="2" fill="white" stroke="black" stroke-width="0.5" />
+  <circle cx="150" cy="40" r="2" fill="white" stroke="black" stroke-width="0.5" />
+  <circle cx="200" cy="70" r="2" fill="white" stroke="black" stroke-width="0.5" />
+  <circle cx="250" cy="30" r="2" fill="white" stroke="black" stroke-width="0.5" />
+  <circle cx="300" cy="60" r="2" fill="white" stroke="black" stroke-width="0.5" />
+  <circle cx="350" cy="50" r="2" fill="white" stroke="black" stroke-width="0.5" />
+  <circle cx="30" cy="120" r="2" fill="white" stroke="black" stroke-width="0.5" />
+  <circle cx="80" cy="150" r="2" fill="white" stroke="black" stroke-width="0.5" />
+  <circle cx="130" cy="110" r="2" fill="white" stroke="black" stroke-width="0.5" />
+  <circle cx="180" cy="140" r="2" fill="white" stroke="black" stroke-width="0.5" />
+  <circle cx="230" cy="100" r="2" fill="white" stroke="black" stroke-width="0.5" />
+  <circle cx="280" cy="130" r="2" fill="white" stroke="black" stroke-width="0.5" />
+  <circle cx="330" cy="120" r="2" fill="white" stroke="black" stroke-width="0.5" />
+  <circle cx="370" cy="170" r="2" fill="white" stroke="black" stroke-width="0.5" />
+  
+  <!-- Larger stars -->
+  <path d="M 70 200 L 75 210 L 85 212 L 77 220 L 80 230 L 70 225 L 60 230 L 63 220 L 55 212 L 65 210 Z" fill="white" stroke="black" stroke-width="1" />
+  <path d="M 320 250 L 325 260 L 335 262 L 327 270 L 330 280 L 320 275 L 310 280 L 313 270 L 305 262 L 315 260 Z" fill="white" stroke="black" stroke-width="1" />
+  
+  <!-- Planets -->
+  <circle cx="150" cy="250" r="30" fill="white" stroke="black" stroke-width="1" />
+  <ellipse cx="150" cy="240" rx="20" ry="5" fill="white" stroke="black" stroke-width="0.5" />
+  
+  <circle cx="280" cy="180" r="20" fill="white" stroke="black" stroke-width="1" />
+  <circle cx="270" cy="175" r="5" fill="white" stroke="black" stroke-width="0.5" />
+  <circle cx="290" cy="185" r="3" fill="white" stroke="black" stroke-width="0.5" />
+  
+  <!-- Rocket -->
+  <path d="M 200 350 L 180 300 L 180 250 L 200 220 L 220 250 L 220 300 L 200 350 Z" fill="white" stroke="black" stroke-width="1" />
+  <path d="M 180 300 L 160 320 L 160 340 L 180 330 Z" fill="white" stroke="black" stroke-width="1" />
+  <path d="M 220 300 L 240 320 L 240 340 L 220 330 Z" fill="white" stroke="black" stroke-width="1" />
+  <circle cx="200" cy="270" r="10" fill="white" stroke="black" stroke-width="1" />
+  <path d="M 190 350 L 185 370 L 195 360 L 205 370 L 210 350 Z" fill="white" stroke="black" stroke-width="1" />
+  
+  <!-- UFO -->
+  <ellipse cx="100" cy="330" rx="30" ry="10" fill="white" stroke="black" stroke-width="1" />
+  <path d="M 85 330 C 85 320, 115 320, 115 330" fill="white" stroke="black" stroke-width="1" />
+  <circle cx="100" cy="320" r="5" fill="white" stroke="black" stroke-width="1" />
+</svg>
+

@@ -1,0 +1,35 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background waves -->
+  <path d="M 0 150 C 50 130, 100 170, 150 150 C 200 130, 250 170, 300 150 C 350 130, 400 170, 450 150 L 450 400 L 0 400 Z" fill="white" stroke="black" stroke-width="1" />
+  
+  <!-- Fish 1 -->
+  <path d="M 100 200 C 120 180, 140 180, 160 200 L 180 190 L 160 200 L 180 210 L 160 200 C 140 220, 120 220, 100 200 Z" fill="white" stroke="black" stroke-width="1" />
+  <circle cx="110" cy="195" r="3" fill="white" stroke="black" stroke-width="1" />
+  
+  <!-- Fish 2 -->
+  <path d="M 300 250 C 280 230, 260 230, 240 250 L 220 240 L 240 250 L 220 260 L 240 250 C 260 270, 280 270, 300 250 Z" fill="white" stroke="black" stroke-width="1" />
+  <circle cx="290" cy="245" r="3" fill="white" stroke="black" stroke-width="1" />
+  
+  <!-- Seaweed -->
+  <path d="M 50 400 C 60 380, 40 360, 50 340 C 60 320, 40 300, 50 280 C 60 260, 40 240, 50 220" fill="none" stroke="black" stroke-width="1" />
+  <path d="M 70 400 C 80 370, 60 340, 70 310 C 80 280, 60 250, 70 220" fill="none" stroke="black" stroke-width="1" />
+  <path d="M 90 400 C 100 380, 80 360, 90 340 C 100 320, 80 300, 90 280" fill="none" stroke="black" stroke-width="1" />
+  
+  <!-- Coral -->
+  <path d="M 350 400 C 350 380, 360 370, 370 380 C 380 370, 390 380, 390 370 C 400 380, 410 370, 410 400" fill="white" stroke="black" stroke-width="1" />
+  <path d="M 330 400 C 330 380, 320 360, 310 370 C 300 350, 290 370, 290 400" fill="white" stroke="black" stroke-width="1" />
+  
+  <!-- Bubbles -->
+  <circle cx="120" cy="150" r="5" fill="white" stroke="black" stroke-width="1" />
+  <circle cx="130" cy="130" r="3" fill="white" stroke="black" stroke-width="1" />
+  <circle cx="125" cy="110" r="4" fill="white" stroke="black" stroke-width="1" />
+  
+  <circle cx="280" cy="200" r="5" fill="white" stroke="black" stroke-width="1" />
+  <circle cx="290" cy="180" r="3" fill="white" stroke="black" stroke-width="1" />
+  <circle cx="285" cy="160" r="4" fill="white" stroke="black" stroke-width="1" />
+  
+  <!-- Starfish -->
+  <path d="M 200 350 L 210 330 L 230 330 L 215 315 L 220 295 L 200 310 L 180 295 L 185 315 L 170 330 L 190 330 Z" fill="white" stroke="black" stroke-width="1" />
+  <circle cx="200" cy="320" r="5" fill="white" stroke="black" stroke-width="1" />
+</svg>
+

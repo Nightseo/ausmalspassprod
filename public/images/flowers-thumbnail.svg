@@ -1,0 +1,14 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Flower 1 -->
+  <path d="M 100 200 C 80 180, 80 160, 100 140 C 120 120, 140 120, 160 140 C 180 160, 180 180, 160 200 C 140 220, 120 220, 100 200 Z" fill="white" stroke="black" stroke-width="1" />
+  <circle cx="130" cy="170" r="15" fill="white" stroke="black" stroke-width="1" />
+  
+  <!-- Flower 2 -->
+  <path d="M 240 200 C 220 180, 220 160, 240 140 C 260 120, 280 120, 300 140 C 320 160, 320 180, 300 200 C 280 220, 260 220, 240 200 Z" fill="white" stroke="black" stroke-width="1" />
+  <circle cx="270" cy="170" r="15" fill="white" stroke="black" stroke-width="1" />
+  
+  <!-- Stems -->
+  <path d="M 130 170 L 130 320" stroke="black" stroke-width="1" />
+  <path d="M 270 170 L 270 320" stroke="black" stroke-width="1" />
+</svg>
+

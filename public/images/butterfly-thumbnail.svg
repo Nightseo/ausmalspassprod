@@ -1,0 +1,9 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <path d="M200 100 C 150 50, 100 50, 50 100 C 0 150, 50 200, 100 250 C 150 300, 175 300, 200 250" fill="white" stroke="black" stroke-width="2" />
+  <path d="M200 100 C 250 50, 300 50, 350 100 C 400 150, 350 200, 300 250 C 250 300, 225 300, 200 250" fill="white" stroke="black" stroke-width="2" />
+  <path d="M200 100 L 200 250" stroke="black" stroke-width="2" />
+  <circle cx="200" cy="80" r="10" fill="white" stroke="black" stroke-width="2" />
+  <path d="M190 70 L 170 50" stroke="black" stroke-width="2" />
+  <path d="M210 70 L 230 50" stroke="black" stroke-width="2" />
+</svg>
+

@@ -1,0 +1,12 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background waves -->
+  <path d="M 0 150 C 50 130, 100 170, 150 150 C 200 130, 250 170, 300 150 C 350 130, 400 170, 450 150 L 450 400 L 0 400 Z" fill="white" stroke="black" stroke-width="1" />
+  
+  <!-- Fish 1 -->
+  <path d="M 100 200 C 120 180, 140 180, 160 200 L 180 190 L 160 200 L 180 210 L 160 200 C 140 220, 120 220, 100 200 Z" fill="white" stroke="black" stroke-width="1" />
+  <circle cx="110" cy="195" r="3" fill="white" stroke="black" stroke-width="1" />
+  
+  <!-- Seaweed -->
+  <path d="M 50 400 C 60 380, 40 360, 50 340 C 60 320, 40 300, 50 280 C 60 260, 40 240, 50 220" fill="none" stroke="black" stroke-width="1" />
+</svg>
+

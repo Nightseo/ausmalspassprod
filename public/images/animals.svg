@@ -1,0 +1,46 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fox -->
+  <path d="M 100 150 L 80 120 L 60 130 L 70 150 L 60 170 L 80 180 L 100 170 L 120 180 L 140 170 L 130 150 L 140 130 L 120 120 Z" fill="white" stroke="black" stroke-width="1" />
+  <circle cx="80" cy="140" r="5" fill="white" stroke="black" stroke-width="1" />
+  <circle cx="120" cy="140" r="5" fill="white" stroke="black" stroke-width="1" />
+  <path d="M 95 150 L 95 160 L 105 160 L 105 150" fill="none" stroke="black" stroke-width="1" />
+  <path d="M 80 120 L 70 110" stroke="black" stroke-width="1" />
+  <path d="M 120 120 L 130 110" stroke="black" stroke-width="1" />
+  
+  <!-- Rabbit -->
+  <circle cx="250" cy="150" r="30" fill="white" stroke="black" stroke-width="1" />
+  <circle cx="250" cy="190" r="20" fill="white" stroke="black" stroke-width="1" />
+  <path d="M 230 130 L 220 100 L 230 110" fill="white" stroke="black" stroke-width="1" />
+  <path d="M 270 130 L 280 100 L 270 110" fill="white" stroke="black" stroke-width="1" />
+  <circle cx="240" cy="140" r="3" fill="white" stroke="black" stroke-width="1" />
+  <circle cx="260" cy="140" r="3" fill="white" stroke="black" stroke-width="1" />
+  <path d="M 245 150 L 245 160 L 255 160 L 255 150" fill="none" stroke="black" stroke-width="1" />
+  <path d="M 240 190 L 230 210" stroke="black" stroke-width="1" />
+  <path d="M 260 190 L 270 210" stroke="black" stroke-width="1" />
+  
+  <!-- Owl -->
+  <circle cx="100" cy="280" r="25" fill="white" stroke="black" stroke-width="1" />
+  <circle cx="85" cy="270" r="10" fill="white" stroke="black" stroke-width="1" />
+  <circle cx="115" cy="270" r="10" fill="white" stroke="black" stroke-width="1" />
+  <circle cx="85" cy="270" r="3" fill="white" stroke="black" stroke-width="1" />
+  <circle cx="115" cy="270" r="3" fill="white" stroke="black" stroke-width="1" />
+  <path d="M 95 280 L 100 290 L 105 280" fill="white" stroke="black" stroke-width="1" />
+  <path d="M 75 255 L 65 245" stroke="black" stroke-width="1" />
+  <path d="M 125 255 L 135 245" stroke="black" stroke-width="1" />
+  
+  <!-- Squirrel -->
+  <circle cx="250" cy="280" r="20" fill="white" stroke="black" stroke-width="1" />
+  <path d="M 250 300 C 240 320, 260 320, 250 340" fill="white" stroke="black" stroke-width="1" />
+  <path d="M 270 280 C 290 270, 290 250, 270 240 C 280 230, 280 220, 270 210 C 260 200, 240 200, 230 210 C 220 220, 220 230, 230 240 C 210 250, 210 270, 230 280" fill="white" stroke="black" stroke-width="1" />
+  <circle cx="245" cy="270" r="3" fill="white" stroke="black" stroke-width="1" />
+  <path d="M 250 280 L 250 285 L 255 285" fill="none" stroke="black" stroke-width="1" />
+  
+  <!-- Tree -->
+  <path d="M 180 400 L 180 300 L 170 300 C 160 280, 160 260, 170 240 C 180 220, 200 220, 210 240 C 220 260, 220 280, 210 300 L 200 300 L 200 400 Z" fill="white" stroke="black" stroke-width="1" />
+  <circle cx="190" cy="250" r="20" fill="white" stroke="black" stroke-width="1" />
+  <circle cx="170" cy="270" r="15" fill="white" stroke="black" stroke-width="1" />
+  <circle cx="210" cy="270" r="15" fill="white" stroke="black" stroke-width="1" />
+  <circle cx="180" cy="280" r="15" fill="white" stroke="black" stroke-width="1" />
+  <circle cx="200" cy="280" r="15" fill="white" stroke="black" stroke-width="1" />
+</svg>
+
