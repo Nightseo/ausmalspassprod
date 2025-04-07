@@ -2,6 +2,8 @@
 
 Este proyecto está configurado para ser desplegado en Vercel.
 
+## Última actualización: 07 de abril de 2025
+
 ## Pasos para el despliegue
 
 1. Crea una cuenta en [Vercel](https://vercel.com/signup) si aún no tienes una.
