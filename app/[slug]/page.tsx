@@ -80,7 +80,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       images: [page.thumbnailUrl],
     },
     alternates: {
-      canonical: `https://ausmalspass.com/${page.slug}`,
+      canonical: `https://www.ausmalspass.com/${page.slug}`,
     },
     robots: {
       index: true,
@@ -94,7 +94,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     },
     authors: [{ name: "AusmalSpass Team" }],
     publisher: "AusmalSpass",
-    metadataBase: new URL("https://ausmalspass.com"),
+    metadataBase: new URL("https://www.ausmalspass.com"),
   }
 }
 
@@ -130,7 +130,7 @@ export default async function ColoringPage({ params }: Props) {
       // ImageObject para la imagen principal
       {
         "@type": "ImageObject",
-        "@id": `https://ausmalspass.com/${page.slug}#primaryImage`,
+        "@id": `https://www.ausmalspass.com/${page.slug}#primaryImage`,
         name: `${page.title} - Ausmalbild zum Ausdrucken`,
         contentUrl: page.imageUrl,
         thumbnailUrl: page.thumbnailUrl,
@@ -140,14 +140,14 @@ export default async function ColoringPage({ params }: Props) {
         copyrightHolder: {
           "@type": "Organization",
           name: "AusmalSpass",
-          url: "https://ausmalspass.com",
+          url: "https://www.ausmalspass.com",
         },
       },
       // CreativeWork para el dibujo para colorear
       {
         "@type": "CreativeWork",
-        "@id": `https://ausmalspass.com/${page.slug}#coloringPage`,
-        url: `https://ausmalspass.com/${page.slug}`,
+        "@id": `https://www.ausmalspass.com/${page.slug}#coloringPage`,
+        url: `https://www.ausmalspass.com/${page.slug}`,
         name: `${page.title} - Ausmalbild zum Ausdrucken`,
         headline: `${page.title} - Ausmalbild zum Ausdrucken`,
         description: page.description,
@@ -155,12 +155,12 @@ export default async function ColoringPage({ params }: Props) {
         datePublished: "2023-01-01T00:00:00Z", // Fecha ficticia, idealmente usar la fecha real
         dateModified: new Date().toISOString(),
         image: {
-          "@id": `https://ausmalspass.com/${page.slug}#primaryImage`,
+          "@id": `https://www.ausmalspass.com/${page.slug}#primaryImage`,
         },
         isPartOf: {
           "@type": "WebSite",
-          "@id": "https://ausmalspass.com/#website",
-          url: "https://ausmalspass.com",
+          "@id": "https://www.ausmalspass.com/#website",
+          url: "https://www.ausmalspass.com",
           name: "AusmalSpass",
           description: "Kostenlose Malvorlagen zum Ausdrucken und Ausmalen",
           inLanguage: "de-DE",
@@ -168,10 +168,10 @@ export default async function ColoringPage({ params }: Props) {
         publisher: {
           "@type": "Organization",
           name: "AusmalSpass",
-          url: "https://ausmalspass.com",
+          url: "https://www.ausmalspass.com",
           logo: {
             "@type": "ImageObject",
-            url: "https://ausmalspass.com/images/logo.png",
+            url: "https://www.ausmalspass.com/images/logo.png",
           },
         },
         keywords: [
@@ -197,33 +197,25 @@ export default async function ColoringPage({ params }: Props) {
               urlTemplate: page.imageUrl,
             },
             name: "Herunterladen",
-          },
-          {
-            "@type": "PrintAction",
-            target: {
-              "@type": "EntryPoint",
-              urlTemplate: `https://ausmalspass.com/${page.slug}`,
-            },
-            name: "Drucken",
-          },
+          }
         ],
       },
       // BreadcrumbList para la navegación
       {
         "@type": "BreadcrumbList",
-        "@id": `https://ausmalspass.com/${page.slug}#breadcrumb`,
+        "@id": `https://www.ausmalspass.com/${page.slug}#breadcrumb`,
         itemListElement: [
           {
             "@type": "ListItem",
             position: 1,
             name: "Startseite",
-            item: "https://ausmalspass.com/",
+            item: "https://www.ausmalspass.com/",
           },
           {
             "@type": "ListItem",
             position: 2,
             name: categoryName,
-            item: `https://ausmalspass.com/kategorie/${page.categorySlug}`,
+            item: `https://www.ausmalspass.com/kategorie/${page.categorySlug}`,
           },
           {
             "@type": "ListItem",
