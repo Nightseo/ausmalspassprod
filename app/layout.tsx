@@ -16,9 +16,9 @@ export const metadata: Metadata = {
   description:
     "Kostenlose Malvorlagen zum Ausdrucken und Ausmalen. Entdecke unsere Sammlung von hochwertigen Ausmalbildern für Kinder und Erwachsene.",
   keywords: "ausmalbilder, malvorlagen, ausmalen, kostenlos, kinder, ausdrucken, bilder zum ausmalen",
-  metadataBase: new URL("https://ausmalspass.com"),
+  metadataBase: new URL("https://www.ausmalspass.com"),
   alternates: {
-    canonical: "https://ausmalspass.com",
+    canonical: "https://www.ausmalspass.com",
   },
   icons: {
     icon: '/images/ausmalspass-favicon.jpg',
@@ -27,14 +27,14 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "de_DE",
-    url: "https://ausmalspass.com",
+    url: "https://www.ausmalspass.com",
     siteName: "AusmalSpass",
     title: "AusmalSpass - Malvorlagen zum Ausdrucken und Ausmalen",
     description:
       "Kostenlose Malvorlagen zum Ausdrucken und Ausmalen. Entdecke unsere Sammlung von hochwertigen Ausmalbildern für Kinder und Erwachsene.",
     images: [
       {
-        url: "https://ausmalspass.com/images/og-image.jpg",
+        url: "https://www.ausmalspass.com/images/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "AusmalSpass - Malvorlagen zum Ausdrucken und Ausmalen",
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     title: "AusmalSpass - Malvorlagen zum Ausdrucken und Ausmalen",
     description:
       "Kostenlose Malvorlagen zum Ausdrucken und Ausmalen. Entdecke unsere Sammlung von hochwertigen Ausmalbildern für Kinder und Erwachsene.",
-    images: ["https://ausmalspass.com/images/og-image.jpg"],
+    images: ["https://www.ausmalspass.com/images/og-image.jpg"],
   },
   robots: {
     index: true,
@@ -72,8 +72,8 @@ export default function RootLayout({
   const websiteSchema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "@id": "https://ausmalspass.com/#website",
-    url: "https://ausmalspass.com",
+    "@id": "https://www.ausmalspass.com/#website",
+    url: "https://www.ausmalspass.com",
     name: "AusmalSpass",
     description: "Kostenlose Malvorlagen zum Ausdrucken und Ausmalen",
     inLanguage: "de-DE",
@@ -82,7 +82,7 @@ export default function RootLayout({
         "@type": "SearchAction",
         target: {
           "@type": "EntryPoint",
-          urlTemplate: "https://ausmalspass.com/search?q={search_term_string}",
+          urlTemplate: "https://www.ausmalspass.com/search?q={search_term_string}",
         },
         "query-input": "required name=search_term_string",
       },
@@ -93,12 +93,12 @@ export default function RootLayout({
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "@id": "https://ausmalspass.com/#organization",
+    "@id": "https://www.ausmalspass.com/#organization",
     name: "AusmalSpass",
-    url: "https://ausmalspass.com",
+    url: "https://www.ausmalspass.com",
     logo: {
       "@type": "ImageObject",
-      url: "https://ausmalspass.com/images/logo.png",
+      url: "https://www.ausmalspass.com/images/logo.png",
       width: 180,
       height: 60,
     },

@@ -3,7 +3,7 @@ import { coloringPages } from "@/data/coloring-pages"
 
 export default function sitemap(): MetadataRoute.Sitemap {
   // URL base del sitio
-  const baseUrl = "https://ausmalspass.com"
+  const baseUrl = "https://www.ausmalspass.com"
 
   // Fecha actual para lastModified
   const currentDate = new Date()
