@@ -1,3 +1,4 @@
+import React from 'react'
 import { coloringPages } from "@/data/coloring-pages"
 import { notFound } from "next/navigation"
 import type { Metadata } from "next"
@@ -111,15 +112,17 @@ export default async function ColoringPage({ params }: Props) {
 
   // Si es una ruta estática conocida, redirigir a la página correcta
   if (staticRoutes.includes(slug)) {
+    // Devolver notFound() para rutas conocidas pero no manejadas en esta función
     return notFound()
   }
 
   // Verificar si el slug existe en los datos
   const page = coloringPages.find((page) => page.slug === slug)
 
+  // Si no se encuentra la página, devolver 404
   if (!page) {
-    console.log(`Page not found for slug: ${slug}`)
-    notFound()
+    // No mostrar mensaje de depuración en producción
+    return notFound()
   }
 
   // Construir el schema JSON-LD para la página
