@@ -20,6 +20,10 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://ausmalspass.com",
   },
+  icons: {
+    icon: '/images/ausmalspass-favicon.jpg',
+    apple: '/images/ausmalspass-favicon.jpg',
+  },
   openGraph: {
     type: "website",
     locale: "de_DE",
@@ -110,6 +114,8 @@ export default function RootLayout({
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
+        <link rel="icon" href="/images/ausmalspass-favicon.jpg" />
+        <link rel="apple-touch-icon" href="/images/ausmalspass-favicon.jpg" />
         <meta name="google-site-verification" content="your-verification-code" />
       </head>
       <body className={cn(inter.className, "bg-slate-50 text-gray-900 antialiased")}>
