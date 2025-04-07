@@ -188,24 +188,8 @@ export default function RootLayout({
                         </Link>
                       </li>
                       <li>
-                        <Link
-                          href="/neue-ausmalbilder"
-                          className="text-gray-600 hover:text-emerald-500 transition-colors"
-                        >
-                          Neue Ausmalbilder
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          href="/beliebte-ausmalbilder"
-                          className="text-gray-600 hover:text-emerald-500 transition-colors"
-                        >
-                          Beliebte Ausmalbilder
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/ueber-uns" className="text-gray-600 hover:text-emerald-500 transition-colors">
-                          Über uns
+                        <Link href="/sitemap.xml" className="text-gray-600 hover:text-emerald-500 transition-colors">
+                          Seitenplan
                         </Link>
                       </li>
                     </ul>
