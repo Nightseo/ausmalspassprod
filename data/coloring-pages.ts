@@ -13,11 +13,13 @@ export type ColoringPage = {
 // Importar páginas de colorear de cada categoría
 import { bobbieGoodsPages } from './categories/bobbie-goods';
 import { stitchPages } from './categories/stitch';
+import { spidermanPages } from './categories/spiderman';
 
 // Combinar todas las páginas
 export const coloringPages: ColoringPage[] = [
   ...bobbieGoodsPages,
   ...stitchPages,
+  ...spidermanPages,
 ];
 
 
