@@ -33,6 +33,8 @@ export default function ColoringPageClient({ slug }: Props) {
     naturaleza: "Natur",
     fantasia: "Fantasie",
     "bobbie-goods": "Bobbie Goods",
+    "stitch": "Stitch",
+    "spiderman": "Spiderman",
   }
 
   const isJpgImage =
@@ -68,6 +70,10 @@ export default function ColoringPageClient({ slug }: Props) {
     }, 300)
   }
 
+  // Obtener el nombre alemán de la categoría para la URL
+  const categoryName = categoryTranslations[page.categorySlug] || page.category;
+  const categoryUrl = categoryName.toLowerCase();
+
   return (
     <div className="bg-slate-50 min-h-screen">
       {/* Breadcrumb y navegación */}
@@ -78,8 +84,8 @@ export default function ColoringPageClient({ slug }: Props) {
               Startseite
             </Link>
             <ChevronRight className="h-4 w-4 mx-2" />
-            <Link href={`/kategorie/${page.categorySlug}`} className="hover:text-emerald-500 transition-colors">
-              {categoryTranslations[page.categorySlug] || page.category}
+            <Link href={`/kategorie/${categoryUrl}`} className="hover:text-emerald-500 transition-colors">
+              {categoryName}
             </Link>
             <ChevronRight className="h-4 w-4 mx-2" />
             <span className="text-gray-900 font-medium truncate">{page.title}</span>

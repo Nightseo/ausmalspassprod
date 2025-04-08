@@ -20,6 +20,8 @@ const categoryTranslations: Record<string, string> = {
   naturaleza: "Natur",
   fantasia: "Fantasie",
   "bobbie-goods": "Bobbie Goods",
+  "stitch": "Stitch",
+  "spiderman": "Spiderman",
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -125,8 +127,11 @@ export default async function ColoringPage({ params }: Props) {
     return notFound()
   }
 
+  // Obtener el nombre alemán de la categoría para la URL
+  const categoryName = categoryTranslations[page.categorySlug] || page.category;
+  const categoryUrl = categoryName.toLowerCase();
+  
   // Construir el schema JSON-LD para la página
-  const categoryName = categoryTranslations[page.categorySlug] || page.category
   const jsonLd = {
     "@context": "https://schema.org",
     "@graph": [
@@ -218,7 +223,7 @@ export default async function ColoringPage({ params }: Props) {
             "@type": "ListItem",
             position: 2,
             name: categoryName,
-            item: `https://www.ausmalspass.com/kategorie/${page.categorySlug}`,
+            item: `https://www.ausmalspass.com/kategorie/${categoryUrl}`,
           },
           {
             "@type": "ListItem",
