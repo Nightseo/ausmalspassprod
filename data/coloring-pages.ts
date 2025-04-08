@@ -14,12 +14,14 @@ export type ColoringPage = {
 import { bobbieGoodsPages } from './categories/bobbie-goods';
 import { stitchPages } from './categories/stitch';
 import { spidermanPages } from './categories/spiderman';
+import { barbiePages } from './categories/barbie';
 
 // Combinar todas las páginas
 export const coloringPages: ColoringPage[] = [
   ...bobbieGoodsPages,
   ...stitchPages,
   ...spidermanPages,
+  ...barbiePages,
 ];
 
 
