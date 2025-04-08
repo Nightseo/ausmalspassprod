@@ -56,18 +56,18 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   ].join(", ")
 
   return {
-    title: `${page.title} - Ausmalbild zum Ausdrucken | AusmalSpass`,
+    title: `${page.title}`,
     description: `${page.description} Kostenlos online ausmalen, ausdrucken oder herunterladen. Hochwertiges ${categoryTranslations[page.categorySlug] || page.category} Ausmalbild für Kinder und Erwachsene.`,
     keywords: keywords,
     openGraph: {
-      title: `${page.title} - Ausmalbild zum Ausdrucken | AusmalSpass`,
+      title: `${page.title}`,
       description: `${page.description} Kostenlos online ausmalen, ausdrucken oder herunterladen.`,
       images: [
         {
           url: page.thumbnailUrl,
           width: 1200,
           height: 630,
-          alt: `${page.title} - Ausmalbild zum Ausdrucken`,
+          alt: `${page.title}`,
         },
       ],
       type: "article",
@@ -76,7 +76,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     },
     twitter: {
       card: "summary_large_image",
-      title: `${page.title} - Ausmalbild zum Ausdrucken | AusmalSpass`,
+      title: `${page.title}`,
       description: `${page.description} Kostenlos online ausmalen, ausdrucken oder herunterladen.`,
       images: [page.thumbnailUrl],
     },
@@ -134,7 +134,7 @@ export default async function ColoringPage({ params }: Props) {
       {
         "@type": "ImageObject",
         "@id": `https://www.ausmalspass.com/${page.slug}#primaryImage`,
-        name: `${page.title} - Ausmalbild zum Ausdrucken`,
+        name: `${page.title}`,
         contentUrl: page.imageUrl,
         thumbnailUrl: page.thumbnailUrl,
         description: page.description,
@@ -151,8 +151,8 @@ export default async function ColoringPage({ params }: Props) {
         "@type": "CreativeWork",
         "@id": `https://www.ausmalspass.com/${page.slug}#coloringPage`,
         url: `https://www.ausmalspass.com/${page.slug}`,
-        name: `${page.title} - Ausmalbild zum Ausdrucken`,
-        headline: `${page.title} - Ausmalbild zum Ausdrucken`,
+        name: `${page.title}`,
+        headline: `${page.title}`,
         description: page.description,
         inLanguage: "de-DE",
         datePublished: "2023-01-01T00:00:00Z", // Fecha ficticia, idealmente usar la fecha real
